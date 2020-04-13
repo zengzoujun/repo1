@@ -2,8 +2,14 @@ import org.junit.Test;
 
 public class Main {
 
+
+
     @Test
     public void testHelloWrold() {
-        System.out.println("HelloWorld!");
+
+        boolean a = true;
+        if(a){
+            System.out.println("HelloWorld!");
+        }
     }
 }
